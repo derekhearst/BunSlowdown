@@ -1,0 +1,28 @@
+{
+  "name": "darkscannerelectron",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint .",
+    "format": "prettier --write ."
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "eslint": "^9.0.0",
+    "prettier": "^3.2.5",
+    "typescript-eslint": "^7.7.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "node-cursor": "^1.1.2",
+    "screenshot-desktop": "^1.15.0",
+    "tesseract.js": "^5.0.5"
+  },
+  "trustedDependencies": [
+    "node-cursor",
+    "tesseract.js"
+  ]
+}
